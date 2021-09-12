@@ -366,6 +366,9 @@ header {
 .proyectos__galeria .proyectos__card {
   width: 300px;
   margin: 10px 10px 50px 10px;
+  -webkit-box-shadow: 1px 3px 10px #BCB8B140;
+          box-shadow: 1px 3px 10px #BCB8B140;
+  border-radius: 10px;
 }
 
 .proyectos__galeria .proyectos__card .proyectos__card__imagen {
@@ -375,13 +378,14 @@ header {
 
 .proyectos__galeria .proyectos__card .proyectos__card__titulo {
   font-size: 24px;
-  margin: 0   5px   5px   5px;
+  margin: 0 5px 5px 5px;
   text-align: center;
 }
 
 .proyectos__galeria .proyectos__card .proyectos__card__detalle {
-  margin: 0   8px   10px     8px;
+  margin: 0 8px 10px 8px;
   text-align: center;
+  padding-bottom: 10px;
 }
 
 footer {
@@ -400,6 +404,7 @@ footer {
 
 .proyectos__galeria-e .proyectos__card-e {
   width: 700px;
+  height: 300px;
   margin: 10px auto 50px auto;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -408,6 +413,9 @@ footer {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
+  -webkit-box-shadow: 1px 3px 10px #BCB8B140;
+          box-shadow: 1px 3px 10px #BCB8B140;
+  border-radius: 10px;
 }
 
 .proyectos__galeria-e .proyectos__card-e .proyectos__card__imagen-e {
@@ -428,6 +436,7 @@ footer {
 
 .proyectos__galeria-e .proyectos__card-ei {
   width: 700px;
+  height: 300px;
   margin: 10px auto 50px auto;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -436,6 +445,9 @@ footer {
   -webkit-box-direction: reverse;
       -ms-flex-direction: row-reverse;
           flex-direction: row-reverse;
+  -webkit-box-shadow: 1px 3px 10px #BCB8B140;
+          box-shadow: 1px 3px 10px #BCB8B140;
+  border-radius: 10px;
 }
 
 .proyectos__galeria-e .proyectos__card-ei .proyectos__card__imagen-e {
@@ -471,6 +483,7 @@ footer {
   }
   .proyectos__galeria-e .proyectos__card-e {
     width: 300px;
+    height: auto;
     margin: 10px auto 35px auto;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -495,6 +508,7 @@ footer {
   }
   .proyectos__galeria-e .proyectos__card-ei {
     width: 300px;
+    height: auto;
     margin: 10px auto 35px auto;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -748,13 +762,11 @@ footer {
 .caso__titulo {
   font-family: "David Libre", serif;
   font-size: 48px;
-  margin: 0px;
+  margin: 30px 0 0 0;
   text-align: center;
-  background-color: darksalmon;
 }
 
 .caso__ficha {
-  background-color: darkgray;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -765,10 +777,15 @@ footer {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
+  margin: 80px 0 50px 0;
 }
 
 .caso__ficha .resumen__imagen {
   max-width: 48%;
+}
+
+.caso__ficha .resumen__imagen .contenida {
+  border-radius: 10px;
 }
 
 .caso__ficha .caso__resumen {
@@ -777,35 +794,147 @@ footer {
 
 .caso__ficha .caso__resumen .resumen__titulo {
   font-size: 24px;
+  line-height: 0.5;
+  margin: 0;
 }
 
 .caso__ficha .caso__resumen .resumen__contenido {
   max-width: 90%;
+  font-size: 18px;
 }
 
 .caso__desarrollo p {
+  font-size: 18px;
   width: 80%;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 30px auto 30px auto;
 }
 
 .caso__desarrollo h4 {
-  font-size: 24px;
+  font-size: 28px;
   text-align: center;
+  margin: 100px auto 20px auto;
 }
 
 .caso__desarrollo .caso__ilu {
-  margin-left: auto;
-  margin-right: auto;
-  width: 100%;
-  background-color: darkblue;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: end;
+  text-align: center;
 }
 
-.caso__desarrollo .caso__ilu img {
+.caso__desarrollo .caso__ilu .contenida {
+  max-width: 400px;
+}
+
+.caso__desarrollo blockquote {
+  font-weight: 600;
+  font-size: 18px;
+  max-width: 58%;
+  margin: 40px auto 40px auto;
+}
+
+.caso__desarrollo .caso__img__medio {
+  text-align: center;
+}
+
+.caso__desarrollo .caso__img__medio .contenida {
+  max-width: 500px;
+  border-radius: 10px;
+}
+
+.caso__desarrollo .caso__diagrama {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.caso__desarrollo .caso__diagrama .contenida {
+  max-width: 500px;
+  border-radius: 10px;
+}
+
+.caso__desarrollo .caso__diagrama__grande {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.caso__desarrollo .caso__diagrama__grande .contenida {
+  max-width: 800px;
+  border-radius: 10px;
+}
+
+.caso__desarrollo .bloque-2imagenes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.caso__desarrollo .bloque-2imagenes .contenida {
+  max-width: 48%;
+  border-radius: 10px;
+}
+
+.caso__desarrollo .caso__2diagrama {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.caso__desarrollo .caso__2diagrama .contenida {
+  max-width: 500px;
+  margin: 10px auto 10px auto;
+  border-radius: 10px;
+}
+
+.caso__desarrollo .bloque-3imagenes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.caso__desarrollo .bloque-3imagenes .contenida {
+  max-width: 90%;
+  border-radius: 10px;
+}
+
+.caso__desarrollo .gifs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.caso__desarrollo .gifs .caso__gif .contenida {
   max-width: 300px;
+}
+
+.caso__desarrollo .caso__img__grande .contenida {
+  border-radius: 10px;
 }
 
 body {

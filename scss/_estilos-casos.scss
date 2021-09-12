@@ -1,19 +1,22 @@
 .caso__titulo {
     font-family: $f-especial;
     font-size: 48px;
-    margin: 0px;
+    margin: 30px 0 0 0;
     text-align: center;
-    background-color: darksalmon;
 }
 
 .caso__ficha {
-    background-color: darkgray;
     display: flex;
     justify-content: space-between;
     flex-direction: row;
+    margin: 80px 0 50px 0;
 
     .resumen__imagen {
         max-width: 48%;
+
+        .contenida {
+            border-radius: 10px;
+        }
     }
 
     .caso__resumen {
@@ -21,41 +24,128 @@
 
         .resumen__titulo {
             font-size: 24px;
+            line-height: 0.5;
+            margin: 0;
         }
 
         .resumen__contenido {
             max-width: 90%;
-
-
+            font-size: 18px;
+            
         }
     }
 }
 
 .caso__desarrollo {
     p {
+        font-size: 18px;
         width: 80%;
-        margin-left: auto;
-        margin-right: auto;
+        margin: 30px auto 30px auto;
     }
 
     h4 {
-        font-size: 24px;
+        font-size: 28px;
         text-align: center;
+        margin: 100px auto 20px auto;
     }
 
     .caso__ilu {
-        margin-left: auto;
-        margin-right: auto;
+        text-align: center;
 
-        img {
-            max-width: 300px;
+        .contenida {
+            max-width: 400px;
+            
+        }
+    }
+
+    blockquote {
+        font-weight: 600;
+        font-size: 18px;
+        max-width: 58%;
+        margin: 40px auto 40px auto;
+    }
+
+    .caso__img__medio {
+        text-align: center;
+
+        .contenida {
+            max-width: 500px;
+            border-radius: 10px;
+        }
+    }
+
+    .caso__diagrama {
+        display: flex;
+        justify-content: center;
+
+        .contenida {
+            max-width: 500px;
+            border-radius: 10px;
+        }
+    }
+
+    .caso__diagrama__grande {
+        display: flex;
+        justify-content: center;
+
+        .contenida {
+            max-width: 800px;
+            border-radius: 10px;
+        }
+    }
+
+    .bloque-2imagenes {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+
+        .contenida {
+            max-width: 48%;
+            border-radius: 10px;
+        }
+    }
+
+    .caso__2diagrama{
+        display: flex;
+        flex-direction: column;
+        .contenida{
+            max-width: 500px;
+            margin: 10px auto 10px auto;
+            border-radius: 10px;
+        }
+    }
+    
+
+    .bloque-3imagenes {
+        display: flex;
+        flex-direction: row;
+        .contenida{
+            max-width: 90%;
+            border-radius: 10px;
+        }
+    }
+    .gifs{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        .caso__gif {
+            .contenida {
+                max-width: 300px;
+            }
         }
 
-        width: 100%;
-        background-color: darkblue;
-        justify-content: end;
+    }
+    .caso__img__grande{
+        .contenida{
+            border-radius: 10px;
+        }
 
     }
+    
+
+    
+
+
 
 
 }
