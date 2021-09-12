@@ -1,0 +1,61 @@
+.caso__titulo {
+    font-family: $f-especial;
+    font-size: 48px;
+    margin: 0px;
+    text-align: center;
+    background-color: darksalmon;
+}
+
+.caso__ficha {
+    background-color: darkgray;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+
+    .resumen__imagen {
+        max-width: 48%;
+    }
+
+    .caso__resumen {
+        max-width: 48%;
+
+        .resumen__titulo {
+            font-size: 24px;
+        }
+
+        .resumen__contenido {
+            max-width: 90%;
+
+
+        }
+    }
+}
+
+.caso__desarrollo {
+    p {
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    h4 {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .caso__ilu {
+        margin-left: auto;
+        margin-right: auto;
+
+        img {
+            max-width: 300px;
+        }
+
+        width: 100%;
+        background-color: darkblue;
+        justify-content: end;
+
+    }
+
+
+}
