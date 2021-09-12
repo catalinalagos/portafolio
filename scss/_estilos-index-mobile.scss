@@ -1,0 +1,121 @@
+// MOBILE
+@media only screen and (max-width: 1000px) {
+    body{
+        width: 100%;
+        margin: 0;
+    }
+  
+    header{
+        display: flex;
+        flex-direction: column;
+        width: 100%;       
+        .header__logo{
+            display: block;
+            text-align: center;
+        }
+        .menu{
+            width: 100%;
+            padding-left: 0px;
+            margin-left: auto;
+            margin-right: auto;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            li{
+                text-align: center;
+                padding-top: 0px;
+                padding-left: 0px;
+                font-size: 16px;
+                a{
+                    color:$acento;
+
+                }
+                    
+
+            }
+        }
+    }
+    .hero{
+        margin-left: 5%;
+        margin-right: 2%;
+        height: 65vh;
+        .hero__intro{
+            font-size: 48px;
+        }
+        .hero__detalle{
+            font-size: 18px;
+            line-height: 1.5;
+            max-width: 400px;
+        }
+    }
+    // TITULOS
+    .casos__titulo, .metodologia__titulo{
+        font-family: $f-especial;
+        font-size: 42px;
+    }
+    .casos{
+        margin-left: 5%;
+        margin-right: 2%;
+    }
+    .metodologia{
+        margin-left: 5%;
+        margin-right: 5%;
+        font-size: 18px;
+        line-height: 1.5;
+
+    }
+    footer{
+        margin-left: 5%;
+        margin-bottom: 30px;
+    }
+
+
+
+    .casos__galeria{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .casos__card{
+        .card__img{
+            width: 100%;
+        }
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        margin: 10px;
+        box-shadow: 1px 3px 10px #BCB8B140;
+        border-radius: 10px;
+        .card__titulo{
+            font-size: 24px;
+            margin: 0   5px   5px   5px;
+            text-align: center;
+        }
+        .card__detalle{
+            margin: 0   6px   10px     6px;
+            text-align: center;
+        }
+        .card__boton{
+            text-align: center;
+            background-color: $terciario;
+            border-radius: 20px;
+            padding:10px 0 10px 0;
+            width: 60%;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 20px;
+            color: $fondo;
+        }
+        .card__boton:hover{
+            background-color: $secundario;
+        }
+    }
+
+
+
+
+
+
+
+}
+

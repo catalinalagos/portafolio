@@ -1,0 +1,62 @@
+@media only screen and (max-width: 1000px) {
+    
+    .proyectos__titulo{
+        margin-left: 5%;
+        font-family: $f-especial;
+        font-size: 42px;
+
+    }
+    //EXPERIMENTACION
+
+    .proyectos__galeria-e{
+        display: flex;
+        flex-direction: column;
+        .proyectos__card-e{
+            width: 300px;
+            margin:10px auto 35px auto;
+            display: flex;
+            flex-direction: column;
+            .proyectos__card__imagen-e{
+                margin-right: 0px;
+            }
+            .proyectos__card__titulo-e{
+                font-size: 24px;
+                text-align: center;
+                margin: 0;
+            }
+            .proyectos__card__detalle-e{
+                text-align: center;
+                width:250px;
+                margin: 10px auto 20px auto;   
+            }
+        }
+        .proyectos__card-ei{
+            width: 300px;
+            margin:10px auto 35px auto;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            .proyectos__card__imagen-e{
+                margin-left: 0px;
+            }
+            .proyectos__card__titulo-e{
+                font-size: 24px;
+                text-align: center;
+                margin:0;
+            }
+            .proyectos__card__detalle-e{
+               width: 250px;
+                text-align: center;
+                margin: 5px auto 20px auto;   
+            }
+        }
+            
+    }
+
+
+
+
+
+
+
+}

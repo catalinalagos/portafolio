@@ -1,0 +1,95 @@
+.bloque-inicial{
+    display: flex;
+    flex-direction: row;
+    margin-top: 60px;
+    
+    .sobre-mi__contenido{
+        display: flex;
+        flex-direction: column;
+    }
+    .celda__imagen{
+        width: 450px;
+        padding-right: 40px;
+    }
+
+    .sobre-mi__titulo{
+        font-family: $f-especial;
+        font-size: 64px;
+        margin: 0px;
+    }
+    .sobre-mi__detalles{
+        max-width: 400px;
+    }
+    
+    
+}
+// Conversemos
+.sobre-mi__conversemos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 30px;
+    .conversemos__titulo{
+        width: 450px;
+        text-align: end ;
+        h5{
+        font-family: $f-especial;
+        font-size: 36px;
+        font-weight: 700;
+        }
+    }
+    .conversemos__boton{
+        width: 470px;
+        margin: auto 0 auto 0;
+        a{
+        text-align: center;
+        font-size: 18px;
+        font-weight: 500;
+        background-color: $secundario;
+        color: $fondo;
+        border-radius: 20px;
+        padding:10px 40px 10px 40px;
+        }
+        a:hover{
+            background-color: $principal;
+        }
+    }
+    
+}
+
+.sobre-mi__tambien-en{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 30px;
+    .tambien-en__titulo{
+        width: 450px;
+        text-align: end ;
+        h5{
+        font-family: $f-especial;
+        font-size: 36px;
+        font-weight: 700;
+        }
+    }
+    .tambien-en__botones{
+        width: 470px;
+        margin: 70px 0 auto 0;
+        display: flex;
+        flex-direction: column;
+        .tambien-en__boton{
+        text-align: center;
+        font-size: 18px;
+        font-weight: 500;
+        background-color: $terciario;
+        color: $fondo;
+        border-radius: 20px;
+        margin: 0 200px 10px 0px;
+        padding:8px 40px 8px 40px;
+        }
+        .tambien-en__boton:hover{
+            background-color: $secundario;
+        }
+
+    }
+   
+}
