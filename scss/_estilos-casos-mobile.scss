@@ -1,0 +1,142 @@
+@media only screen and (max-width: 1000px) {
+    body{
+        width: 100%;
+        margin: 0;
+    }
+    .breadcrumb__ocultar{
+        display: none;
+    }
+    //CASO
+    .caso__titulo {
+        font-size: 36px;
+        margin: 0 0 0 0;
+        text-align: center;
+    }
+    .caso__ficha {
+        flex-direction: column;
+        margin: 30px 0 50px 0;
+        .resumen__imagen {
+            max-width: 90%;
+            margin: 0 auto 0 auto;
+        }
+    
+        .caso__resumen {
+            max-width: 90%;
+            .resumen__titulo {
+                font-size: 24px;
+                text-align: center;  
+            }
+            .resumen__contenido {
+                max-width: 90%;
+                margin: 0 auto 0 auto;
+                font-size: 16px;
+                
+            }
+        }
+    }
+    .caso__desarrollo {
+        p {
+            font-size: 16px;
+            width: 90%;
+            margin: 0px auto 30px auto;
+        }
+    
+        h4 {
+            font-size: 24px;
+            text-align: center;
+            margin: 10px auto 20px auto;
+        }
+    
+        .caso__ilu {
+            text-align: center;
+    
+            .contenida {
+                max-width: 400px;
+                
+            }
+        }
+    
+        blockquote {
+            max-width: 80%; 
+        }
+    
+        .caso__img__medio {
+            text-align: center;
+    
+            .contenida {
+                max-width: 100%;
+            }
+        }
+    
+        .caso__diagrama {
+            flex-direction: column;
+            max-width: 95%;
+            .contenida {
+                max-width: 100%;
+            }
+        }
+    
+        .caso__diagrama__grande {
+            .contenida {
+                max-width: 90%;
+            }
+        }
+    
+        .bloque-2imagenes {
+            flex-direction: column;
+            align-items: center;
+            .contenida{
+                max-width: 90%;
+                margin-bottom: 30px;
+
+            
+            }
+        }
+    
+        .caso__2diagrama{
+            flex-direction: column;
+            .contenida{
+                max-width: 90%;
+            }
+        }
+    
+        .bloque-3imagenes {
+            flex-direction: column;
+            .contenida{
+                max-width: 90%;
+            }
+        }
+        .gifs{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            .caso__gif {
+                .contenida {
+                    max-width: 95%;
+                }
+            }
+        }
+        .caso__img__grande{
+            max-width: 95%;
+        }
+    }
+    .casos__enlaces{
+        max-width: 90%;
+        .casos__enlaces__breadcrumb{
+            a{
+                color: $secundario;
+            }
+            p{
+                color: $fondo;
+            }
+    
+        }
+        .casos__enlaces__proyectos{
+            a{
+                color: $secundario;
+            }
+        }
+    }
+
+
+}

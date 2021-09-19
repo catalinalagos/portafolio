@@ -4,7 +4,7 @@ $f-especial:'David Libre', serif;
 $principal:#463F3A;
 $secundario: #8A817C;
 $terciario:#BCB8B1;
-$acento:#E0AFA0;
+$acento:#ce7a61;
 $fondo:#F4F3EE;
 
 // HEADER
@@ -103,6 +103,7 @@ header{
         margin-right: auto;
         margin-bottom: 20px;
         color: $fondo;
+        transition: all 0.6s;
     }
     .card__boton:hover{
         background-color: $secundario;
@@ -121,6 +122,7 @@ header{
         font-size: 18px;
         font-weight: 500;
         color: $fondo;
+        transition: all 0.5s;
     }
     .cta__boton:hover{
         background-color: $principal;

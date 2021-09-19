@@ -48,6 +48,11 @@
         text-align: center;
         margin: 100px auto 20px auto;
     }
+    .caso__subtitulo__int{
+        font-size: 21px;
+        width: 80%;
+        margin: 50px auto 0px auto;
+    }
 
     .caso__ilu {
         text-align: center;
@@ -147,5 +152,31 @@
 
 
 
+
+}
+.casos__enlaces{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 100%;
+    margin: 30px auto 0 auto;
+    color: $secundario;
+    .casos__enlaces__breadcrumb{
+        margin: 10px 0 0 0;
+        a{
+            color: $acento;
+        }
+        p{
+            color: $secundario;
+        }
+
+    }
+    .casos__enlaces__proyectos{
+        margin: 26px 0 0 0;
+        a{
+            color: $secundario;
+        }
+        
+    }
 
 }

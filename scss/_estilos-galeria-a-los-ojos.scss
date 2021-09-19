@@ -1,0 +1,396 @@
+
+// GALERIA GENERAL
+.volver{
+    background-color: $terciario;
+    color: $fondo;
+    font-size: 36px;
+    padding: 0px 20px 5px 20px;
+    border-radius: 30px;
+    position: fixed;
+    top: 50px;
+    right: 50px;
+}
+.footer__galeria{
+    position: fixed;
+    bottom: 30px;
+    left: 50px;
+}
+.galeria__img{
+    height: 100vh;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: center;
+    background-attachment: fixed;
+}
+
+//A LOS OJOS
+.alo__img__1{
+    background-image: url(../assets/images/proyectos/a-los-ojos/alo1.png);
+}
+.alo__img__2{
+    background-image: url(../assets/images/proyectos/a-los-ojos/alo2.png);
+}
+.alo__img__3{
+    background-image: url(../assets/images/proyectos/a-los-ojos/alo3.png);
+}
+.alo__img__4{
+    background-image: url(../assets/images/proyectos/a-los-ojos/alo4.png);
+}
+.alo__img__5{
+    background-image: url(../assets/images/proyectos/a-los-ojos/alo5.png);
+}
+.alo__img__6{
+    background-image: url(../assets/images/proyectos/a-los-ojos/alo6.png);
+}
+
+//MURO DE BARRIO
+
+.mdb__img__1{
+    background-image: url(../assets/images/proyectos/muro-de-barrio/mdb1.png);
+}
+.mdb__img__2{
+    background-image: url(../assets/images/proyectos/muro-de-barrio/mdb2.png);
+}
+.mdb__img__3{
+    background-image: url(../assets/images/proyectos/muro-de-barrio/mdb3.png);
+}
+.mdb__img__4{
+    background-image: url(../assets/images/proyectos/muro-de-barrio/mdb4.png);
+}
+.mdb__img__5{
+    background-image: url(../assets/images/proyectos/muro-de-barrio/mdb5.png);
+}
+.mdb__img__6{
+    background-image: url(../assets/images/proyectos/muro-de-barrio/mdb6.png);
+}
+//EDISON
+.ed__img__1{
+    background-image: url(../assets/images/proyectos/edison/ed1.png);
+}
+.ed__img__2{
+    background-image: url(../assets/images/proyectos/edison/ed2.png);
+}
+.ed__img__3{
+    background-image: url(../assets/images/proyectos/edison/ed3.png);
+}
+.ed__img__4{
+    background-image: url(../assets/images/proyectos/edison/ed4.png);
+}
+.ed__img__5{
+    background-image: url(../assets/images/proyectos/edison/ed5.png);
+}
+.ed__img__6{
+    background-image: url(../assets/images/proyectos/edison/ed6.png);
+}
+//MELISAI
+.meli__img__1{
+    background-image: url(../assets/images/proyectos/melisai/meli1.png);
+}
+.meli__img__2{
+    background-image: url(../assets/images/proyectos/melisai/meli2.png);
+}
+.meli__img__3{
+    background-image: url(../assets/images/proyectos/melisai/meli3.png);
+}
+.meli__img__4{
+    background-image: url(../assets/images/proyectos/melisai/meli4.png);
+}
+.meli__img__5{
+    background-image: url(../assets/images/proyectos/melisai/meli5.png);
+}
+.meli__img__6{
+    background-image: url(../assets/images/proyectos/melisai/meli6.png);
+}
+//SONODOT
+.sd__img__1{
+    background-image: url(../assets/images/proyectos/sonodot/sd1.png);
+}
+.sd__img__2{
+    background-image: url(../assets/images/proyectos/sonodot/sd2.png);
+}
+.sd__img__3{
+    background-image: url(../assets/images/proyectos/sonodot/sd3.png);
+}
+.sd__img__4{
+    background-image: url(../assets/images/proyectos/sonodot/sd4.png);
+}
+.sd__img__5{
+    background-image: url(../assets/images/proyectos/sonodot/sd5.png);
+}
+//INSTRUMENTAL
+.ins__img__1{
+    background-image: url(../assets/images/proyectos/instrumental/ins1.png);
+}
+.ins__img__2{
+    background-image: url(../assets/images/proyectos/instrumental/ins2.png);
+}
+.ins__img__3{
+    background-image: url(../assets/images/proyectos/instrumental/ins3.png);
+}
+.ins__img__4{
+    background-image: url(../assets/images/proyectos/instrumental/ins4.png);
+}
+.ins__img__5{
+    background-image: url(../assets/images/proyectos/instrumental/ins5.png);
+}
+//GLOV.E
+.glv__img__1{
+    background-image: url(../assets/images/proyectos/glov-e/glv01.png);
+}
+.glv__img__2{
+    background-image: url(../assets/images/proyectos/glov-e/glv02.png);
+}
+.glv__img__3{
+    background-image: url(../assets/images/proyectos/glov-e/glv03.png);
+}
+.glv__img__4{
+    background-image: url(../assets/images/proyectos/glov-e/glv04.png);
+}
+.glv__img__5{
+    background-image: url(../assets/images/proyectos/glov-e/glv05.png);
+}
+.glv__img__6{
+    background-image: url(../assets/images/proyectos/glov-e/glv06.png);
+}
+//DYALI
+.dy__img__1{
+    background-image: url(../assets/images/proyectos/dyali/dy1.png);
+}
+.dy__img__2{
+    background-image: url(../assets/images/proyectos/dyali/dy2.png);
+}
+.dy__img__3{
+    background-image: url(../assets/images/proyectos/dyali/dy3.png);
+}
+.dy__img__4{
+    background-image: url(../assets/images/proyectos/dyali/dy4.png);
+}
+.dy__img__5{
+    background-image: url(../assets/images/proyectos/dyali/dy5.png);
+}
+.dy__img__6{
+    background-image: url(../assets/images/proyectos/dyali/dy6.png);
+}
+.dy__img__7{
+    background-image: url(../assets/images/proyectos/dyali/dy7.png);
+}
+//LA CRIANZA
+.lc__img__1{
+    background-image: url(../assets/images/proyectos/la-crianza/lc1.png);
+}
+.lc__img__2{
+    background-image: url(../assets/images/proyectos/la-crianza/lc2.png);
+}
+.lc__img__3{
+    background-image: url(../assets/images/proyectos/la-crianza/lc3.png);
+}
+.lc__img__4{
+    background-image: url(../assets/images/proyectos/la-crianza/lc4.png);
+}
+.lc__img__5{
+    background-image: url(../assets/images/proyectos/la-crianza/lc5.png);
+}
+
+//ALLBIOTECH
+.all__img__1{
+    background-image: url(../assets/images/proyectos/allbiotech/all1.png);
+}
+.all__img__2{
+    background-image: url(../assets/images/proyectos/allbiotech/all2.png);
+}
+.all__img__3{
+    background-image: url(../assets/images/proyectos/allbiotech/all3.png);
+}
+
+//FIG
+.fig__img__1{
+    background-image: url(../assets/images/proyectos/fig/fig1.jpeg);
+}
+.fig__img__2{
+    background-image: url(../assets/images/proyectos/fig/fig2.jpeg);
+}
+.fig__img__3{
+    background-image: url(../assets/images/proyectos/fig/fig3.jpeg);
+}
+.fig__img__4{
+    background-image: url(../assets/images/proyectos/fig/fig4.jpeg);
+}
+.fig__img__5{
+    background-image: url(../assets/images/proyectos/fig/fig5.jpeg);
+}
+.fig__img__6{
+    background-image: url(../assets/images/proyectos/fig/fig6.jpeg);
+}
+.fig__img__7{
+    background-image: url(../assets/images/proyectos/fig/fig7.jpeg);
+}
+.fig__img__8{
+    background-image: url(../assets/images/proyectos/fig/fig8.jpeg);
+}
+.fig__img__9{
+    background-image: url(../assets/images/proyectos/fig/fig9.jpeg);
+}
+
+//EXPERIMENTACIÓN
+//antotipias
+.atp__img__1{
+    background-image: url(../assets/images/experimentacion/antotipias/atp1.jpeg);
+}
+.atp__img__2{
+    background-image: url(../assets/images/experimentacion/antotipias/atp2.jpeg);
+}
+.atp__img__3{
+    background-image: url(../assets/images/experimentacion/antotipias/atp3.jpeg);
+}
+.atp__img__4{
+    background-image: url(../assets/images/experimentacion/antotipias/atp4.jpeg);
+}
+.atp__img__5{
+    background-image: url(../assets/images/experimentacion/antotipias/atp5.jpeg);
+}
+.atp__img__6{
+    background-image: url(../assets/images/experimentacion/antotipias/atp6.jpeg);
+}
+//biomateriales
+.bio__img__1{
+    background-image: url(../assets/images/experimentacion/biomateriales/bio1.jpeg);
+}
+.bio__img__2{
+    background-image: url(../assets/images/experimentacion/biomateriales/bio2.jpeg);
+}
+.bio__img__3{
+    background-image: url(../assets/images/experimentacion/biomateriales/bio3.jpeg);
+}
+.bio__img__4{
+    background-image: url(../assets/images/experimentacion/biomateriales/bio4.jpeg);
+}
+.bio__img__5{
+    background-image: url(../assets/images/experimentacion/biomateriales/bio5.jpeg);
+}
+.bio__img__6{
+    background-image: url(../assets/images/experimentacion/biomateriales/bio6.jpeg);
+}
+.bio__img__7{
+    background-image: url(../assets/images/experimentacion/biomateriales/bio0.jpeg);
+}
+//maywe
+.mw__img__1{
+    background-image: url(../assets/images/experimentacion/maywe/mw1.png);
+}
+.mw__img__2{
+    background-image: url(../assets/images/experimentacion/maywe/mw2.png);
+}
+.mw__img__3{
+    background-image: url(../assets/images/experimentacion/maywe/mw3.png);
+}
+
+//oyen12
+.oy__img__1{
+    background-image: url(../assets/images/experimentacion/oyen12/oy1.png);
+}
+.oy__img__2{
+    background-image: url(../assets/images/experimentacion/oyen12/oy2.png);
+}
+.oy__img__3{
+    background-image: url(../assets/images/experimentacion/oyen12/oy3.png);
+}
+.oy__img__4{
+    background-image: url(../assets/images/experimentacion/oyen12/oy4.png);
+}
+.oy__img__5{
+    background-image: url(../assets/images/experimentacion/oyen12/oy5.png);
+}
+.oy__img__6{
+    background-image: url(../assets/images/experimentacion/oyen12/oy6.png);
+}
+//poesía chilena
+.po__img__1{
+    background-image: url(../assets/images/experimentacion/poesia-chilena/po1.png);
+}
+.po__img__2{
+    background-image: url(../assets/images/experimentacion/poesia-chilena/po2.png);
+}
+.po__img__3{
+    background-image: url(../assets/images/experimentacion/poesia-chilena/po3.png);
+}
+.po__img__4{
+    background-image: url(../assets/images/experimentacion/poesia-chilena/po4.png);
+}
+.po__img__5{
+    background-image: url(../assets/images/experimentacion/poesia-chilena/po5.png);
+}
+.po__img__6{
+    background-image: url(../assets/images/experimentacion/poesia-chilena/po6.png);
+}
+.po__img__7{
+    background-image: url(../assets/images/experimentacion/poesia-chilena/po7.png);
+}
+
+//fotografía
+.foto__img__1{
+    background-image: url(../assets/images/experimentacion/fotografia/foto1.jpeg);
+}
+.foto__img__2{
+    background-image: url(../assets/images/experimentacion/fotografia/foto2.jpeg);
+}
+.foto__img__3{
+    background-image: url(../assets/images/experimentacion/fotografia/foto3.jpeg);
+}
+.foto__img__4{
+    background-image: url(../assets/images/experimentacion/fotografia/foto4.jpeg);
+}
+.foto__img__5{
+    background-image: url(../assets/images/experimentacion/fotografia/foto5.jpeg);
+}
+.foto__img__6{
+    background-image: url(../assets/images/experimentacion/fotografia/foto6.jpeg);
+}
+.foto__img__7{
+    background-image: url(../assets/images/experimentacion/fotografia/foto7.jpeg);
+}
+.foto__img__8{
+    background-image: url(../assets/images/experimentacion/fotografia/foto8.jpeg);
+}
+.foto__img__9{
+    background-image: url(../assets/images/experimentacion/fotografia/foto9.jpeg);
+}
+.foto__img__0{
+    background-image: url(../assets/images/experimentacion/fotografia/foto0.jpeg);
+}
+//tono
+.tono__img__1{
+    background-image: url(../assets/images/experimentacion/tono/tono1.png);
+}
+.tono__img__2{
+    background-image: url(../assets/images/experimentacion/tono/tono2.png);
+}
+.tono__img__3{
+    background-image: url(../assets/images/experimentacion/tono/tono3.png);
+}
+.tono__img__4{
+    background-image: url(../assets/images/experimentacion/tono/tono4.png);
+}
+
+//stop motion
+.sm__img__1{
+    background-image: url(../assets/images/experimentacion/stop-motion/sm1.png);
+}
+.sm__img__2{
+    background-image: url(../assets/images/experimentacion/stop-motion/sm2.png);
+}
+.sm__img__3{
+    background-image: url(../assets/images/experimentacion/stop-motion/sm3.png);
+}
+.sm__img__4{
+    background-image: url(../assets/images/experimentacion/stop-motion/sm4.png);
+}
+.sm__img__5{
+    background-image: url(../assets/images/experimentacion/stop-motion/sm5.png);
+}
+.sm__img__6{
+    background-image: url(../assets/images/experimentacion/stop-motion/sm6.png);
+}
+.sm__img__7{
+    background-image: url(../assets/images/experimentacion/stop-motion/sm7.png);
+}
